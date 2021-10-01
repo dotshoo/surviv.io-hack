@@ -1,0 +1,35 @@
+(function() {
+    'use strict';
+
+var shits = ""
+
+// Some important shit for this whole thing to work
+
+var func = {
+    webpack_inject: (w, e, get) => {
+        shits = get("03f4982a")
+    },
+};
+
+if(typeof window.webpackJsonp === 'function') {
+    window.webpackJsonp([0], func, ["webpack_inject"]);
+} else {
+    window.webpackJsonp.push([
+        ["webpack_inject"],
+        func,
+        [["webpack_inject"]]
+    ]);
+}
+
+// do the magic
+
+Object.keys(shits).forEach(function(key) {
+    if(key.match(/tree/g)) {
+        shits[key].img.sprite = "https://surviv.io/img/map/map-tree-res-02.svg"
+    } else if(key.match(/bush/g)) {
+        shits[key].img.scale = 0.16
+    } else if(key.match(/table/g)) {
+        shits[key].img.sprite = ""
+    }
+})
+})();
