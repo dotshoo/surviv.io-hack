@@ -1,0 +1,24 @@
+(function() {
+    'use strict';
+    var lastHP = 0
+    var health = $("<span></span>")
+    health.css({
+        display: "block",
+        position: "fixed",
+        "z-index": "2",
+        margin: "6px 0 0 0",
+        right: "12px",
+        color: "blue",
+        "font-weight": "bold",
+        "font-size": "large",
+    })
+    $("#ui-health-container").append(health)
+
+    setInterval(function(){
+        var hp = Math.round(document.getElementById("ui-health-actual").style.width.slice(0,-1))
+        if(lastHP !== hp){
+            lastHP = hp
+            health.html(Math.ceil(hp))
+        }
+    })
+})();
