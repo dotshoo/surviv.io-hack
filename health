@@ -1,3 +1,29 @@
+// ==UserScript==
+// @name         Surviv Health Mod
+// @namespace    https://github.com/Michal2SAB
+// @version      1.0
+// @description  Shows you the health number, that's all...
+// @author       Michal2SAB
+// @match        *://surviv.io/*
+// @match        *://surviv2.io/*
+// @match        *://2dbattleroyale.com/*
+// @match        *://2dbattleroyale.org/*
+// @match        *://piearesquared.info/*
+// @match        *://thecircleisclosing.com/*
+// @match        *://archimedesofsyracuse.info/*
+// @match        *://secantsecant.com/*
+// @match        *://parmainitiative.com/*
+// @match        *://nevelskoygroup.com/*
+// @match        *://kugahi.com/*
+// @match        *://chandlertallowmd.com/*
+// @match        *://ot38.club/*
+// @match        *://kugaheavyindustry.com/*
+// @match        *://drchandlertallow.com/*
+// @match        *://rarepotato.com/*
+// @grant        none
+// @require http://code.jquery.com/jquery-3.4.1.min.js
+// ==/UserScript==
+
 (function() {
     'use strict';
     var lastHP = 0
