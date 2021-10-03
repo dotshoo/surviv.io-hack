@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name       warm mod
-// @description  no ad custom skins during games, it even lets you make your own skins Shows you the health number Get better FPS in game
-// @namespace   hard
-// @version    1
-// @author       HACKPD
+// @name         Free Custom Surviv.io Skins and Mods (FREE SURVIV GOLD PASS #3 )
+// @namespace    https://github.com/Elspex
+// @version      1.0.9
+// @description   a free and purely cosmetic script that lets you use custom skins during games, it even lets you make your own skins!
+// @author       preacher
 // @match        *://surviv.io/*
 // @match        *://surviv2.io/*
 // @match        *://2dbattleroyale.com/*
@@ -20,18 +20,10 @@
 // @match        *://kugaheavyindustry.com/*
 // @match        *://drchandlertallow.com/*
 // @match        *://rarepotato.com/*
-// @grant    GM_addStyle
-// @grant        unsafeWindow
-// @grant        GM.setValue
-// @grant        GM.getValue
-// @require https://github.com/dotshoo/surviv.io-hack/raw/main/no%20tree
-// @require https://github.com/dotshoo/surviv.io-hack/raw/main/health
-// @require https://github.com/dotshoo/surviv.io-hack/raw/main/no%20ads
-// @require https://github.com/dotshoo/surviv.io-hack/raw/main/good%20fbs
+// @grant        none
+// @icon         https://i.imgur.com/jgHdTYA.png
+// @run-at       document-end
 // ==/UserScript==
-
-
-
 
 // make console.log() work
 console.log = console.info;
