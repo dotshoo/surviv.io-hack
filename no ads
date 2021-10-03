@@ -1,3 +1,28 @@
+// ==UserScript==
+// @name         no ads
+// @namespace    https://github.com/Michal2SAB
+// @version      2.0
+// @description  no ad
+// @author       Michal2SAB
+// @match        *://surviv.io/*
+// @match        *://surviv2.io/*
+// @match        *://2dbattleroyale.com/*
+// @match        *://2dbattleroyale.org/*
+// @match        *://piearesquared.info/*
+// @match        *://thecircleisclosing.com/*
+// @match        *://archimedesofsyracuse.info/*
+// @match        *://secantsecant.com/*
+// @match        *://parmainitiative.com/*
+// @match        *://nevelskoygroup.com/*
+// @match        *://kugahi.com/*
+// @match        *://chandlertallowmd.com/*
+// @match        *://ot38.club/*
+// @match        *://kugaheavyindustry.com/*
+// @match        *://drchandlertallow.com/*
+// @match        *://rarepotato.com/*
+// @grant        none
+// ==/UserScript==
+
 'use strict';
 //Make things easy
 function delAds(eID){
